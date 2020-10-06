@@ -1,6 +1,6 @@
 # Hacktoberfest Repository for Algorithms
 
-This is a repository for Hacktoberfest 2020. I will be contributing Data Structures and Algorithm problem solutions here, and would encourage the others to do the same.
+This is a repository for Hacktoberfest 2020. I will be contributing Data Structures and Algorithm problem solutions here, and would encourage the others to do the same. The focus should be on learning algorithms and not just copy pasting solutions from the internet.
 
 ### How to Contribute?
 
