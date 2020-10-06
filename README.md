@@ -2,7 +2,7 @@
 
 This is a repository for Hacktoberfest 2020. I will be contributing Data Structures and Algorithm problem solutions here, and would encourage the others to do the same.
 
-# How to Contribute?
+### How to Contribute?
 
 - Fork this repo by clicking on the Fork button on top right.
 
@@ -28,7 +28,7 @@ This is a repository for Hacktoberfest 2020. I will be contributing Data Structu
   git push origin <your-branch-name>
   ```
   
-# Contribution Guidelines:
+### Contribution Guidelines:
 
 - Commit message will be of format ```"Adding/modifying <algorithm-name>"```
 - Do not push changes to master directly.
