@@ -28,6 +28,9 @@ This is a repository for Hacktoberfest 2020. I will be contributing Data Structu
   git push origin <your-branch-name>
   ```
   
-  NOTE: Commit message will be of format "Adding/modifying <algorithm name>"
+  NOTE: Commit message will be of format ```"Adding/modifying <algorithm-name>"```
+  <br />
   NOTE: Do not push changes to master directly.
+  
+  ### Happy Hacking!
   
