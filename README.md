@@ -20,13 +20,14 @@ This is a repository for Hacktoberfest 2020. I will be contributing Data Structu
   
 - Add a new algorithm in a separate folder. See contribution guidelines for more info.
 
-- After making changes, push the code.
+- After making changes, push the code to your branch.
   
   ```
   git add .
   git commit -m "message"
   git push origin <your-branch-name>
   ```
+- Go to your branch and click on 'Compare and Pull Request' button. Add a description of the algorithm also.
   
 ### Contribution Guidelines:
 
