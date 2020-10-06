@@ -32,5 +32,5 @@ This is a repository for Hacktoberfest 2020. I will be contributing Data Structu
   <br />
   NOTE: Do not push changes to master directly.
   
-  ### Happy Hacking!
+### Happy Hacking!
   
