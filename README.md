@@ -18,7 +18,7 @@ This is a repository for Hacktoberfest 2020. I will be contributing Data Structu
   git checkout -b <your-algorithm-name>
   ```
   
-- Add a new algorithm in a separate folder. Name the folder with the Algorithm's name. Algorithms can be written in any language. It could be a Leetcode question, or a question from competitive programming contests. 
+- Add a new algorithm in a separate folder. See contribution guidelines for more info.
 
 - After making changes, push the code.
   
@@ -28,9 +28,13 @@ This is a repository for Hacktoberfest 2020. I will be contributing Data Structu
   git push origin <your-branch-name>
   ```
   
-  NOTE: Commit message will be of format ```"Adding/modifying <algorithm-name>"```
-  <br />
-  NOTE: Do not push changes to master directly.
+# Contribution Guidelines:
+
+- Commit message will be of format ```"Adding/modifying <algorithm-name>"```
+- Do not push changes to master directly.
+- Name the folder with the Algorithm's name. 
+- Algorithms can be written in any language. It could be a Leetcode question, or a question from competitive programming contests.
+- Please avoid adding algorithms already added by others.
   
 ### Happy Hacking!
   
