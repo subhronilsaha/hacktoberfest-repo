@@ -9,7 +9,7 @@ This is a repository for Hacktoberfest 2020. I will be contributing Data Structu
 - Clone the repo to your system. 
   
   ```
-  git clone https://github.com/subhronilsaha/hacktoberfest-repo.git
+  git clone https://github.com/<your-username>/hacktoberfest-repo.git
   cd hacktoberfest-repo
   ```
 - Make a new branch. Paste the below code snippet in your terminal. (Remove '<' and '>')
