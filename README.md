@@ -1,6 +1,12 @@
+<img src="https://hacktoberfest.digitalocean.com/assets/og-hf20-cf92d1a3bfc78883ea79dbac1518f1a4f1585e23eb69337ea730447cb70fa777.png" />
+
 # Hacktoberfest Repository for Algorithms
 
-This is a repository for Hacktoberfest 2020. I will be contributing Data Structures and Algorithm problem solutions here, and would encourage the others to do the same. The focus should be on learning algorithms and not just copy pasting solutions from the internet.
+This is a repository for people to get accustomed to making open-source contributions, aligning with the spirit of Hacktoberfest. I will be contributing Data Structures and Algorithm problem solutions here, and would encourage the others to do the same. The focus should be on learning algorithms and not just copy pasting solutions from the internet. 
+
+### What is Hackctoberfest?
+
+Hacktoberfest is basically a celebration of open-source and its community sponsored by DigitalOcean that happens every October. People are encouraged to submit pull requests and make more open source contributions. You need to make 4 successful pull requests within 31st October to be eligible to win a Hacktoberfest tee. (Only for the first 70,000 participants worldwide). For more details check this: https://hacktoberfest.digitalocean.com
 
 ### How to Contribute?
 
