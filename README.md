@@ -4,7 +4,7 @@
 
 This is a repository for people to get accustomed to making open-source contributions, aligning with the spirit of Hacktoberfest. I will be contributing Data Structures and Algorithm problem solutions here, and would encourage the others to do the same. The focus should be on learning algorithms and not just copy pasting solutions from the internet. 
 
-### What is Hackctoberfest?
+### What is Hacktoberfest?
 
 Hacktoberfest is basically a celebration of open-source and its community sponsored by DigitalOcean that happens every October. People are encouraged to submit pull requests and make more open source contributions. You need to make 4 successful pull requests within 31st October to be eligible to win a Hacktoberfest tee. (Only for the first 70,000 participants worldwide). For more details check this: https://hacktoberfest.digitalocean.com
 
