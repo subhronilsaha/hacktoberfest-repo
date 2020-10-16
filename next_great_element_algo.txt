@@ -1,0 +1,68 @@
+Next Greater Element
+Last Updated: 24-07-2019
+Given an array, print the Next Greater Element (NGE) for every element. The Next greater Element for an element x is the first greater element on the right side of x in array. Elements for which no greater element exist, consider next greater element as -1.
+
+Examples:
+
+For any array, rightmost element always has next greater element as -1.
+For an array which is sorted in decreasing order, all elements have next greater element as -1.
+For the input array [4, 5, 2, 25}, the next greater elements for each element are as follows.
+Element       NGE
+   4      -->   5
+   5      -->   25
+   2      -->   25
+   25     -->   -1
+d) For the input array [13, 7, 6, 12}, the next greater elements for each element are as follows.
+
+  Element        NGE
+   13      -->    -1
+   7       -->     12
+   6       -->     12
+   12      -->     -1
+Recommended: Please solve it on “PRACTICE ” first, before moving on to the solution.
+Method 1 (Simple)
+Use two loops: The outer loop picks all the elements one by one. The inner loop looks for the first greater element for the element picked by the outer loop. If a greater element is found then that element is printed as next, otherwise -1 is printed.
+
+filter_none
+edit
+play_arrow
+
+brightness_4
+// Simple C++ program to print 
+// next greater elements in a 
+// given array 
+#include<iostream> 
+using namespace std; 
+  
+/* prints element and NGE pair  
+for all elements of arr[] of size n */
+void printNGE(int arr[], int n) 
+{ 
+    int next, i, j; 
+    for (i = 0; i < n; i++) 
+    { 
+        next = -1; 
+        for (j = i + 1; j < n; j++) 
+        { 
+            if (arr[i] < arr[j]) 
+            { 
+                next = arr[j]; 
+                break; 
+            } 
+        } 
+        cout << arr[i] << " -- " 
+             << next << endl; 
+    } 
+} 
+  
+// Driver Code 
+int main() 
+{ 
+    int arr[] = {11, 13, 21, 3}; 
+    int n = sizeof(arr)/sizeof(arr[0]); 
+    printNGE(arr, n); 
+    return 0; 
+} 
+  
+// This code is contributed  
+// by Akanksha Rai(Abby_akku) 
