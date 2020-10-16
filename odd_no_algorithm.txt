@@ -1,0 +1,55 @@
+Find the Number Occurring Odd Number of Times
+Last Updated: 01-03-2020
+Given an array of positive integers. All numbers occur even number of times except one number which occurs odd number of times. Find the number in O(n) time & constant space.
+Examples :
+
+Input : arr = {1, 2, 3, 2, 3, 1, 3}
+Output : 3
+
+Input : arr = {5, 7, 2, 7, 5, 2, 5}
+Output : 5
+Recommended: Please solve it on “PRACTICE ” first, before moving on to the solution.
+A Simple Solution is to run two nested loops. The outer loop picks all elements one by one and inner loop counts number of occurrences of the element picked by outer loop. Time complexity of this solution is O(n2).
+
+Below is the implementation of the brute force approach :
+filter_none
+edit
+play_arrow
+
+brightness_4
+// C++ program to find the element  
+// occurring odd number of times 
+#include<bits/stdc++.h> 
+using namespace std; 
+  
+// Function to find the element  
+// occurring odd number of times 
+int getOddOccurrence(int arr[], int arr_size) 
+{ 
+    for (int i = 0; i < arr_size; i++) { 
+          
+        int count = 0; 
+          
+        for (int j = 0; j < arr_size; j++) 
+        { 
+            if (arr[i] == arr[j]) 
+                count++; 
+        } 
+        if (count % 2 != 0) 
+            return arr[i]; 
+    } 
+    return -1; 
+} 
+  
+// driver code 
+int main() 
+    { 
+        int arr[] = { 2, 3, 5, 4, 5, 2, 
+                      4, 3, 5, 2, 4, 4, 2 }; 
+        int n = sizeof(arr) / sizeof(arr[0]); 
+  
+        // Function calling 
+        cout << getOddOccurrence(arr, n); 
+  
+        return 0; 
+    } 
