@@ -65,7 +65,6 @@ void preprocess(int input[], int n)
 	}
 }
 
-// Driver code
 int main()
 {
 	// We have used separate array for input because
