@@ -6,7 +6,7 @@ This is a repository for people to get accustomed to making open-source contribu
 
 ### What is Hacktoberfest?
 
-Hacktoberfest is basically a celebration of open-source and its community sponsored by DigitalOcean that happens every October. People are encouraged to submit pull requests and make more open source contributions. You need to make 4 successful pull requests within 31st October to be eligible to win a Hacktoberfest tee. (Only for the first 70,000 participants worldwide). For more details check this: https://hacktoberfest.digitalocean.com
+Hacktoberfest is basically a celebration of open-source and its community sponsored by DigitalOcean that happens every October. People are encouraged to submit pull requests and make more open source contributions. You need to make 4 successful pull requests within 31st October to be eligible to win a Hacktoberfest tee. (Only for the first 70,000 participants worldwide). Register here: https://hacktoberfest.digitalocean.com
 
 ### How to Contribute?
 
