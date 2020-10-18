@@ -33,7 +33,7 @@ int optimisedSpace_fib(int n)  //Space complexity: O(1)
 int main()
 {
 	int n;
-  cin >> n;
+  	cin >> n;
 
 	cout << fib(n) << endl;
 	cout << optimisedSpace_fib(n);
