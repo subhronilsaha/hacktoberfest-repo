@@ -26,7 +26,7 @@ int main()
 	FAST
 
 	int n;
-  cin >> n;
+  	cin >> n;
 	int dp[101] = {}; // For first 100 numbers in fibonacci sequence.
 	
 	cout << fib(n, dp);
