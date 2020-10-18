@@ -1,5 +1,6 @@
 // The program finds the number of divisors of a number taken as input.
 //If a no when represented in the form (a^x)*(b^y).... where a, b and all others are the prime factors. The no of divisors: ans=(x+1)*(y+1).....
+// That's why at first we need to find the prime numbers too.
 
 #include<bits/stdc++.h>
 using namespace std;
