@@ -2,6 +2,8 @@
 
 # Hacktoberfest Repository for Algorithms
 
+<strong><ins> NOTE:</ins> Hacktoberfest 2020 has concluded! Congratulations for everyone who participated this year! This repository is now closed. </strong>
+
 This is a repository for people to get accustomed to making open-source contributions, aligning with the spirit of Hacktoberfest. I will be contributing Data Structures and Algorithm problem solutions here, and would encourage the others to do the same. The focus should be on learning algorithms and not just copy pasting solutions from the internet. 
 
 ### What is Hacktoberfest?
