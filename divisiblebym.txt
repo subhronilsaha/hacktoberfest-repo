@@ -1,0 +1,213 @@
+Count the numbers divisible by ‘M’ in a given range
+Last Updated: 18-07-2019
+A and B are two numbers which define a range, where A <= B. Find the total numbers in the given range [A … B] divisible by 'M'
+
+Examples:
+
+Input  : A = 25, B = 100, M = 30
+Output : 3
+Explanation : In the given range [25 - 100], 
+30, 60 and 90 are divisible by 30
+
+Input : A = 6, B = 15, M = 3
+Output : 4
+Explanation : In the given range [6 - 15],
+6, 9, 12 and 15 are divisible by 3
+Recommended: Please solve it on “PRACTICE” first, before moving on to the solution.
+Method 1 : [Brute-force]
+Run a loop from A to B. If a number divisible by ‘M’ is found, increment counter.
+
+Below is the implementation of above method:
+C/C++
+filter_none
+edit
+play_arrow
+
+brightness_4
+// Program to count the numbers divisible by 
+// M in a given range 
+#include <bits/stdc++.h> 
+using namespace std; 
+  
+int countDivisibles(int A, int B, int M) 
+{ 
+    // Variable to store the counter 
+    int counter = 0; 
+  
+    // Running a loop from A to B and check 
+    // if a number is divisible by M. 
+    for (int i = A; i <= B; i++) 
+        if (i % M == 0) 
+            counter++; 
+  
+    return counter; 
+} 
+  
+// Driver code 
+int main() 
+{ 
+    // A and B define the range, M is the dividend 
+    int A = 30, B = 100, M = 30; 
+  
+    // Printing the result 
+    cout << countDivisibles(A, B, M) << endl; 
+  
+    return 0; 
+} 
+Java
+filter_none
+edit
+play_arrow
+
+brightness_4
+// Java program to count the numbers divisible by 
+// M in a given range 
+import java.io.*; 
+  
+class GFG { 
+    // Function to count the numbers divisible by 
+    // M in a given range 
+    static int countDivisibles(int A, int B, int M) 
+    { 
+        // Variable to store the counter 
+        int counter = 0; 
+  
+        // Running a loop from A to B and check 
+        // if a number is divisible by M. 
+        for (int i = A; i <= B; i++) 
+            if (i % M == 0) 
+                counter++; 
+  
+        return counter; 
+    } 
+  
+    // driver program 
+    public static void main(String[] args) 
+    { 
+        // A and B define the range, M is the dividend 
+        int A = 30, B = 100, M = 30; 
+  
+        // Printing the result 
+        System.out.println(countDivisibles(A, B, M)); 
+    } 
+} 
+  
+// Contributed by Pramod Kumar 
+Python3
+filter_none
+edit
+play_arrow
+
+brightness_4
+# Program to count the numbers  
+# divisible by M in a given range 
+  
+def countDivisibles(A, B, M): 
+      
+    # Variable to store the counter 
+    counter = 0; 
+  
+    # Running a loop from A to B 
+    # and check if a number is  
+    # divisible by M. 
+    for i in range(A, B): 
+        if (i % M == 0): 
+            counter = counter + 1
+  
+    return counter 
+  
+# Driver code 
+# A and B define the range, 
+# M is the dividend 
+A = 30
+B = 100
+M = 30
+  
+# Printing the result 
+print(countDivisibles(A, B, M)) 
+  
+# This code is contributed by Sam007. 
+C#
+filter_none
+edit
+play_arrow
+
+brightness_4
+// C# program to count the numbers 
+// divisible by M in a given range 
+using System; 
+  
+public class GFG { 
+  
+    // Function to count the numbers divisible by 
+    // M in a given range 
+    static int countDivisibles(int A, int B, int M) 
+    { 
+        // Variable to store the counter 
+        int counter = 0; 
+  
+        // Running a loop from A to B and check 
+        // if a number is divisible by M. 
+        for (int i = A; i <= B; i++) 
+            if (i % M == 0) 
+                counter++; 
+  
+        return counter; 
+    } 
+  
+    // driver program 
+    public static void Main() 
+    { 
+        // A and B define the range, M is the dividend 
+        int A = 30, B = 100, M = 30; 
+  
+        // Printing the result 
+        Console.WriteLine(countDivisibles(A, B, M)); 
+    } 
+} 
+  
+// This code is contributed by Sam007 
+PHP
+filter_none
+edit
+play_arrow
+
+brightness_4
+<?php 
+// PHP Program to count the 
+// numbers divisible by 
+// M in a given range 
+  
+function countDivisibles($A, $B, $M) 
+{ 
+      
+    // Variable to store the counter 
+    $counter = 0; 
+  
+    // Running a loop from  
+    // A to B and check 
+    // if a number is  
+    // divisible by M. 
+    for ($i = $A; $i <= $B; $i++) 
+        if ($i % $M == 0) 
+            $counter++; 
+  
+    return $counter; 
+} 
+  
+    // Driver Code 
+    // A and B define the range, 
+    // M is the dividend 
+    $A = 30; 
+    $B = 100; 
+    $M = 30; 
+  
+    // Printing the result 
+    echo countDivisibles($A, $B, $M), "\n"; 
+  
+// This code is contributed by ajit 
+?> 
+
+Output:
+
+ADVERTISING

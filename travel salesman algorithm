@@ -1,0 +1,28 @@
+A traveler needs to visit all the cities from a list, where distances between all the cities are known and each city should be visited just once. What is the shortest possible route that he visits each city exactly once and returns to the origin city?
+
+Solution
+Travelling salesman problem is the most notorious computational problem. We can use brute-force approach to evaluate every possible tour and select the best one. For n number of vertices in a graph, there are (n - 1)! number of possibilities.
+
+Instead of brute-force using dynamic programming approach, the solution can be obtained in lesser time, though there is no polynomial time algorithm.
+
+Let us consider a graph G = (V, E), where V is a set of cities and E is a set of weighted edges. An edge e(u, v) represents that vertices u and v are connected. Distance between vertex u and v is d(u, v), which should be non-negative.
+
+Suppose we have started at city 1 and after visiting some cities now we are in city j. Hence, this is a partial tour. We certainly need to know j, since this will determine which cities are most convenient to visit next. We also need to know all the cities visited so far, so that we don't repeat any of them. Hence, this is an appropriate sub-problem.
+
+For a subset of cities S Є {1, 2, 3, ... , n} that includes 1, and j Є S, let C(S, j) be the length of the shortest path visiting each node in S exactly once, starting at 1 and ending at j.
+
+When |S| > 1, we define C(S, 1) = ∝ since the path cannot start and end at 1.
+
+Now, let express C(S, j) in terms of smaller sub-problems. We need to start at 1 and end at j. We should select the next city in such a way that
+
+C(S,j)=minC(S−{j},i)+d(i,j)wherei∈Sandi≠jc(S,j)=minC(s−{j},i)+d(i,j)wherei∈Sandi≠j
+Algorithm: Traveling-Salesman-Problem 
+C ({1}, 1) = 0 
+for s = 2 to n do 
+   for all subsets S Є {1, 2, 3, … , n} of size s and containing 1 
+      C (S, 1) = ∞ 
+   for all j Є S and j ≠ 1 
+      C (S, j) = min {C (S – {j}, i) + d(i, j) for i Є S and i ≠ j} 
+Return minj C ({1, 2, 3, …, n}, j) + d(j, i) 
+Analysis
+There are at the most 2n.n sub-problems and each one takes linear time to solve. Therefore, the total running time is O(2n.n2)
